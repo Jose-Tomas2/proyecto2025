@@ -1,0 +1,25 @@
+{
+  "name": "skynet-login",
+  "version": "1.0.0",
+  "description": "A login system for SkyNet S.A.",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "build": "tsc",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4",
+    "ts-node": "^10.4.0",
+    "@types/node": "^16.7.10",
+    "@types/express": "^4.17.13"
+  },
+  "author": "SkyNet S.A.",
+  "license": "MIT"
+}
